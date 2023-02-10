@@ -15,13 +15,13 @@ description =  "Device support crate for sam3x8e devices"
 test = false
 
 [dependencies]
-bare-metal = "0.2.0"
-cortex-m = "0.5.8"
-vcell = "0.1.0"
+bare-metal = "1.0.0"
+cortex-m = "0.7.7"
+vcell = "0.1.3"
 
 [dependencies.cortex-m-rt]
 optional = true
-version = "0.6.5"
+version = "0.7.2"
 
 [features]
 rt = ["cortex-m-rt/device"]
